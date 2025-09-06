@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>CPath Labs — CPath Digital Pathology</title>
+  <link rel="stylesheet" href="css/style.css">
   <meta name="description" content="CPath Labs — NABL certified diagnostics and CPath Digital Pathology for expert subspecialty reporting, whole slide imaging and second opinions.">
   <meta name="keywords" content="CPath, CPathLabs, digital pathology, histopathology, second opinion, WSI, NABL">
   <link rel="icon" href="/favicon.ico">
@@ -69,10 +70,11 @@
 </head>
 <body>
 
+ 
   <header>
     <div class="container nav">
       <a class="brand" href="#home">
-        <img src="/mnt/data/cpath_labs_logo (1).jfif" alt="CPath Labs logo">
+        <img src="images/logo.png" alt="CPath Labs logo">
         <div>
           <strong style="display:block">CPath Labs</strong>
           <span class="small">Comprehensive Pathology & Digital Pathology</span>
@@ -184,24 +186,68 @@
     <section id="gallery">
       <h2>Image Gallery & Slides</h2>
       <p class="lead">Pathology images, lab photos and recent slides. Replace these with higher resolution images from your collection when ready.</p>
-      <div class="gallery" style="margin-top:12px">
-        <!-- Replace these src with your images in /images/ (or upload here) -->
-        <img src="/mnt/data/WhatsApp Image 2025-09-01 at 10.44.57 AM.jpeg" alt="slide 1">
-        <img src="/mnt/data/cpath_labs_logo (1).jfif" alt="logo image">
-        <img src="/mnt/data/WhatsApp Image 2025-09-01 at 10.44.57 AM.jpeg" alt="slide 3">
-      </div>
+     <div class="gallery" style="margin-top:12px">
+      <img src="images/slide1.jpg" alt="Slide 1">
+      <img src="images/slide2.jpg" alt="Slide 2">
+      <img src="images/slide3.jpg" alt="Slide 3">
+      <img src="images/slide4.jpg" alt="Slide 4">
+      <img src="images/slide5.jpg" alt="Slide 5">
+      <img src="images/slide6.jpg" alt="Slide 6">
+     </div>
+
+
       <p class="small" style="margin-top:10px">To add more images: put your files into the <code>images/</code> folder and update the <code>&lt;img src="images/yourfile.jpg"&gt;</code> paths below.</p>
     </section>
 
     <!-- Videos -->
     <section id="videos">
-      <h2>Videos</h2>
-      <p class="lead">Educational videos and case discussions. You provided a YouTube video which is embedded below.</p>
-      <div class="card video-wrap" style="margin-top:12px">
-        <!-- YouTube video embed -->
-        <iframe src="https://www.youtube.com/embed/WeqS1Wga_zc" title="YouTube video" frameborder="0" allowfullscreen></iframe>
-      </div>
-      <p class="small" style="margin-top:8px">To embed more videos from LinkedIn: either (1) host on YouTube and embed as above, or (2) use LinkedIn's post embed code—export the LinkedIn post URL and generate an embed. Alternatively, upload MP4 files to <code>/videos/</code> and use a &lt;video&gt; tag.</p>
+     <h2>Videos</h2>
+     <p class="lead">Educational videos and case discussions.</p>
+     <div class="grid-2" style="margin-top:12px; gap:12px">
+
+        <div class="card video-wrap">
+         <video controls width="100%" style="border-radius:8px">
+          <source src="videos/demo1.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+         </video>
+        </div>
+
+        <div class="card video-wrap">
+         <video controls width="100%" style="border-radius:8px">
+          <source src="videos/demo2.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+         </video>
+        </div>
+
+        <div class="card video-wrap">
+         <video controls width="100%" style="border-radius:8px">
+          <source src="videos/demo3.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+         </video>
+        </div>
+
+        <div class="card video-wrap">
+         <video controls width="100%" style="border-radius:8px">
+          <source src="videos/demo4.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+         </video>
+        </div>
+
+        <div class="card video-wrap">
+         <video controls width="100%" style="border-radius:8px">
+          <source src="videos/demo5.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+         </video>
+        </div>
+
+        <div class="card video-wrap">
+         <video controls width="100%" style="border-radius:8px">
+          <source src="videos/demo6.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+         </video>
+        </div>
+
+     </div>
     </section>
 
     <!-- How it works -->
